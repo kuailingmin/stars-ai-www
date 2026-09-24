@@ -1,7 +1,6 @@
 import { useCallback, useEffect, useRef, useState, type CSSProperties } from "react"
 import { Link, useLocation, useNavigate } from "react-router-dom"
-import { ArrowUpRight, Menu, X } from "lucide-react"
-import { buttonVariants } from "@/components/ui/button"
+import { Menu, X } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { useReducedMotion } from "@/components/reactbits"
 
@@ -150,16 +149,6 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center gap-2 shrink-0">
-          <a
-            href="https://117.64.210.62:3500/chat"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={cn(buttonVariants({ variant: "hero", size: "sm" }), "hidden md:inline-flex")}
-          >
-            产品演示
-            <ArrowUpRight size={14} className="ml-1.5" aria-hidden="true" />
-          </a>
-
           <button
             type="button"
             className="flex h-9 w-9 items-center justify-center rounded-md border border-accent-border/60 bg-card/80 text-foreground/80 lg:hidden"
@@ -196,17 +185,6 @@ export function Navbar() {
                 <span>{link.label}</span>
               </button>
             ))}
-            <div className="p-3">
-              <a
-                href="https://117.64.210.62:3500/chat"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={cn(buttonVariants({ variant: "hero", size: "default" }), "w-full")}
-              >
-                产品演示
-                <ArrowUpRight size={15} className="ml-1.5" />
-              </a>
-            </div>
           </div>
         </div>
       </div>

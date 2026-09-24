@@ -120,7 +120,7 @@ const policySections: PolicySection[] = [
     content: [
       "本隐私政策可能会根据法律法规变化、产品功能更新或业务需要进行修订。我们将通过平台公告或邮件通知的方式告知用户政策变更。",
       "重大变更将提前 30 天通知，用户在更新后继续使用平台即视为同意修订后的隐私政策。",
-      "如对本政策有任何疑问，请联系我们：maxiang14@tsinghua.org.cn。",
+      "如对本政策有任何疑问，请联系我们：kuailingmin@126.com。",
     ],
   },
 ]
@@ -269,7 +269,7 @@ export function PrivacyPage() {
               {"我们重视您对数据安全的每一个关切。如有任何疑问或建议，欢迎随时联系我们。"}
             </p>
             <a
-              href="mailto:maxiang14@tsinghua.org.cn?subject=%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96%E5%92%A8%E8%AF%A2"
+              href="mailto:kuailingmin@126.com?subject=%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96%E5%92%A8%E8%AF%A2"
               className="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-lg bg-gradient-to-r from-accent-primary to-accent-glow text-white font-medium text-sm hover:shadow-hero transition-shadow duration-300"
             >
               {"联系我们"} <Shield size={16} />

@@ -297,7 +297,7 @@ function JoinSection() {
           </p>
           <div className="flex justify-center">
             <a
-              href="mailto:maxiang14@tsinghua.org.cn?subject=%E5%90%88%E4%BD%9C%E6%B2%9F%E9%80%9A%E2%80%94%E2%80%94%E5%8D%8E%E8%85%BE%E7%A7%91%E7%A0%94AI%E5%B9%B3%E5%8F%B0"
+              href="mailto:kuailingmin@126.com?subject=%E5%90%88%E4%BD%9C%E6%B2%9F%E9%80%9A%E2%80%94%E2%80%94%E5%8D%8E%E8%85%BE%E7%A7%91%E7%A0%94AI%E5%B9%B3%E5%8F%B0"
               className="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-lg bg-gradient-to-r from-accent-primary to-accent-glow text-white font-medium text-sm hover:shadow-hero transition-shadow duration-300"
             >
               {"预约合作沟通"} <ArrowRight size={16} />

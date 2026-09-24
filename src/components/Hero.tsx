@@ -1,6 +1,5 @@
 import { buttonVariants } from "@/components/ui/button"
 import {
-  ArrowRight,
   Check,
 } from "lucide-react"
 import { CountUp } from "@/components/CountUp"
@@ -38,15 +37,6 @@ export function Hero() {
             </div>
 
             <div className="flex flex-col gap-2 sm:flex-row sm:gap-3">
-              <a
-                href="https://117.64.210.62:3500/chat"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={buttonVariants({ variant: "hero", size: "xl" })}
-              >
-                进入产品演示
-                <ArrowRight size={18} className="ml-2" aria-hidden="true" />
-              </a>
               <button
                 type="button"
                 onClick={() => document.getElementById("capabilities")?.scrollIntoView({ behavior: "smooth", block: "start" })}

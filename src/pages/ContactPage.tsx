@@ -12,9 +12,9 @@ const contactChannels = [
   {
     icon: Mail,
     title: "电子邮件",
-    value: "maxiang14@tsinghua.org.cn",
+    value: "kuailingmin@126.com",
     desc: "商务合作与产品咨询",
-    href: "mailto:maxiang14@tsinghua.org.cn",
+    href: "mailto:kuailingmin@126.com",
     gradient: "from-violet-500/15 to-violet-500/5",
     borderColor: "border-violet-500/20",
     iconColor: "text-violet-400",
@@ -22,7 +22,7 @@ const contactChannels = [
   {
     icon: Phone,
     title: "联系电话",
-    value: "17756044216",
+    value: "18551680387",
     desc: "工作日 9:00 - 18:00",
     href: "tel:400XXXXXXX",
     gradient: "from-violet-500/15 to-violet-500/5",
@@ -223,7 +223,7 @@ function FormSection() {
     const body = encodeURIComponent(
       `姓名：${name}\n机构：${org}\n邮箱：${email}\n\n${message}`
     )
-    window.location.href = `mailto:maxiang14@tsinghua.org.cn?subject=${subject}&body=${body}`
+    window.location.href = `mailto:kuailingmin@126.com?subject=${subject}&body=${body}`
     setSubmitted(true)
     setTimeout(() => setSubmitted(false), 3000)
   }
@@ -246,11 +246,11 @@ function FormSection() {
               {"填写以下表单，我们将通过邮件在 24 小时内与您取得联系。您也可以直接发送邮件至："}
             </p>
             <a
-              href="mailto:maxiang14@tsinghua.org.cn"
+              href="mailto:kuailingmin@126.com"
               className="inline-flex items-center gap-2 text-accent-primary font-medium hover:underline"
             >
               <Mail size={16} />
-              maxiang14@tsinghua.org.cn
+              kuailingmin@126.com
             </a>
           </div>
 

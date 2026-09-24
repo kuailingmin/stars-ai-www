@@ -1,6 +1,5 @@
-import { buttonVariants } from "@/components/ui/button"
-import { ArrowRight, Mail, Phone } from "lucide-react"
-import { ScrollReveal, Spotlight, MagneticElement } from "@/components/reactbits"
+import { Mail, Phone } from "lucide-react"
+import { ScrollReveal, Spotlight } from "@/components/reactbits"
 
 export function CTA() {
   return (
@@ -53,32 +52,23 @@ export function CTA() {
                 开启智能科研新范式
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-10">
-                产品演示，了解华腾·知渊如何帮助您的团队构建永不流失的数字大脑
+                联系我们，了解华腾·知渊如何帮助您的团队构建永不流失的数字大脑
               </p>
-
-              <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
-                <MagneticElement strength={8}>
-                  <a href="https://117.64.210.62:3500/chat" target="_blank" rel="noopener noreferrer" className={buttonVariants({ variant: "hero", size: "xl" })}>
-                    产品演示
-                    <ArrowRight size={18} className="ml-2" />
-                  </a>
-                </MagneticElement>
-              </div>
 
               <div className="flex flex-col sm:flex-row justify-center gap-8 text-sm text-muted-foreground">
                 <a
-                  href="mailto:maxiang14@tsinghua.org.cn"
+                  href="mailto:kuailingmin@126.com"
                   className="flex items-center gap-2 hover:text-foreground transition-colors"
                 >
                   <Mail size={16} className="text-accent-primary" />
-                  maxiang14@tsinghua.org.cn
+                  kuailingmin@126.com
                 </a>
                 <a
                   href="tel:400-000-0000"
                   className="flex items-center gap-2 hover:text-foreground transition-colors"
                 >
                   <Phone size={16} className="text-accent-primary" />
-                  17756044216
+                  18551680387
                 </a>
               </div>
             </div>
