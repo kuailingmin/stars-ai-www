@@ -1,0 +1,7 @@
+/node_modules
+*.local
+.DS_Store
+dist
+
+# 注意：dist 目录现在被 Git 跟踪，用于 CI/CD 部署
+# dist
